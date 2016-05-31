@@ -10,13 +10,16 @@ class Category
      * Возвращает массив категорий для списка на сайте
      * @return array <p>Массив с категориями</p>
      */
-    public static function getCategoriesList()
+   
+        public static function getCategoriesList()
     {
         // Соединение с БД
         $db = Db::getConnection();
-
         // Запрос к БД
-        $result = $db->query('SELECT id, name FROM category WHERE status = "1" ORDER BY sort_order, name ASC');
+        $result = $db->query('SELECT c.id, c.name, COUNT(p.id) AS cnt '
+                . 'FROM category c INNER JOIN product p ON c.id=p.category_id '
+                . 'WHERE p.status = "1" '
+                . 'GROUP BY c.id');
 
         // Получение и возврат результатов
         $i = 0;
@@ -24,6 +27,7 @@ class Category
         while ($row = $result->fetch()) {
             $categoryList[$i]['id'] = $row['id'];
             $categoryList[$i]['name'] = $row['name'];
+            $categoryList[$i]['values'] = $row['cnt'];
             $i++;
         }
         return $categoryList;

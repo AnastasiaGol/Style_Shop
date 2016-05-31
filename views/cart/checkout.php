@@ -27,7 +27,8 @@
                     <h2 class="title text-center">Корзина</h2>
 
 
-                    <?php if ($result): ?>
+                    <?php if ($result):?>
+                  
                         <p>Заказ оформлен. Мы Вам перезвоним.</p>
                     <?php else: ?>
 
@@ -49,7 +50,7 @@
                                 <div class="login-form">
                                     <form action="#" method="post">
 
-                                        <p>Ваша имя</p>
+                                        <p>Ваше имя</p>
                                         <input type="text" name="userName" placeholder="" value="<?php echo $userName; ?>"/>
 
                                         <p>Номер телефона</p>

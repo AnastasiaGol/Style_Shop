@@ -1,6 +1,12 @@
 <?php
 
 return array(
+    //Анализ категорий
+    'admin/order/report' => 'adminOrder/report', // actionCategory в AdminAnalizeController
+    //Анализ категорий
+    'admin/analize/category' => 'adminAnalize/category', // actionCategory в AdminAnalizeController
+    //Анализ
+    'admin/analize' => 'adminAnalize/index', // actionIndex в AdminAnalizeController
     // Товар:
     'product/([0-9]+)' => 'product/view/$1', // actionView в ProductController
     // Каталог:

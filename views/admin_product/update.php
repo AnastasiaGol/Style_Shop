@@ -29,7 +29,7 @@
                         <p>Артикул</p>
                         <input type="text" name="code" placeholder="" value="<?php echo $product['code']; ?>">
 
-                        <p>Стоимость, $</p>
+                        <p>Стоимость, грн</p>
                         <input type="text" name="price" placeholder="" value="<?php echo $product['price']; ?>">
 
                         <p>Категория</p>

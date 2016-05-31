@@ -10,6 +10,7 @@
                 <ol class="breadcrumb">
                     <li><a href="/admin">Админпанель</a></li>
                     <li class="active">Управление заказами</li>
+                    <li><a href="/admin/order/report">Печать отчета</a></li>
                 </ol>
             </div>
 
@@ -44,10 +45,9 @@
                         <td><a href="/admin/order/update/<?php echo $order['id']; ?>" title="Редактировать"><i class="fa fa-pencil-square-o"></i></a></td>
                         <td><a href="/admin/order/delete/<?php echo $order['id']; ?>" title="Удалить"><i class="fa fa-times"></i></a></td>
                     </tr>
-                <?php endforeach; ?>
+                <?php endforeach; ?>                    
             </table>
-
-        </div>
+         </div>
     </div>
 </section>
 

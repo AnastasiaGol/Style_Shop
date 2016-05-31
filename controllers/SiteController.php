@@ -9,7 +9,7 @@ class SiteController
     /**
      * Action для главной страницы
      */
-    public function actionIndex()
+    public function actionIndexSsite()
     {
         // Список категорий для левого меню
         $categories = Category::getCategoriesList();
@@ -54,7 +54,7 @@ class SiteController
             if ($errors == false) {
                 // Если ошибок нет
                 // Отправляем письмо администратору 
-                $adminEmail = 'php.start@mail.ru';
+                $adminEmail = 'anastasiia@golubnychaya@gmail.com';
                 $message = "Текст: {$userText}. От {$userEmail}";
                 $subject = 'Тема письма';
                 $result = mail($adminEmail, $subject, $message);

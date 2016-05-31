@@ -45,6 +45,7 @@ class Order
     {
         // Соединение с БД
         $db = Db::getConnection();
+        //$db->exec("SET CHARACTER SET cp1251_koi8");
 
         // Получение и возврат результатов
         $result = $db->query('SELECT id, user_name, user_phone, date, status FROM product_order ORDER BY id DESC');

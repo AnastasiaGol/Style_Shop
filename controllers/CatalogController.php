@@ -30,7 +30,7 @@ class CatalogController
     {
         // Список категорий для левого меню
         $categories = Category::getCategoriesList();
-
+        
         // Список товаров в категории
         $categoryProducts = Product::getProductsListByCategory($categoryId, $page);
 

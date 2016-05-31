@@ -13,11 +13,13 @@
         <link href="/template/css/animate.css" rel="stylesheet">
         <link href="/template/css/main.css" rel="stylesheet">
         <link href="/template/css/responsive.css" rel="stylesheet">
-
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->       
+        
+        <link href="/template/css/grafics.css" rel="stylesheet">        
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+        <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+        <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>   
+        
         <link rel="shortcut icon" href="/template/images/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/template/images/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/template/images/ico/apple-touch-icon-114-precomposed.png">
@@ -50,4 +52,3 @@
                     </div>
                 </div><!--/header_top-->
 
-               

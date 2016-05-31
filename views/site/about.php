@@ -5,26 +5,21 @@
         <div class="row">
 
             <div class="col-lg-6">
-                <h4>Информация о магазине</h4>
+                <h4>Приветствуем вас на сайте украинского интернет магазина одежды Anastasia Style!</h4>
 
                 <br/>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac 
-                    lorem sit amet erat venenatis porta. Pellentesque ultricies 
-                    neque nec eros fringilla, vitae euismod massa posuere. Nullam 
-                    volutpat, nisl efficitur convallis bibendum, turpis nunc 
-                    ullamcorper metus, a iaculis sapien sem a est. Maecenas ac 
-                    vestibulum ex. Nullam interdum quis mi ut venenatis. </p>
+                <p> Мы предлагаем широкий выбор качественных товаров от известных производителей по низким ценам, регулярные скидки и распродажи, удобную доставку по всем регионам Украины и беспроблемный возврат в течение 14 дней после получения заказа.
+                    Стильная одежда по низким ценам</p>
 
-                <p>Phasellus iaculis purus elementum felis varius, vel viverra massa 
-                    tincidunt. Aliquam vulputate dictum luctus. Aenean lectus 
-                    risus, pellentesque eget lectus eu, sodales fringilla magna. 
-                    Nunc diam mi, dictum ac est non, molestie eleifend ligula.
-                    Nam pharetra vulputate lectus. Duis non quam in est interdum 
-                    pellentesque condimentum a elit. Praesent eget turpis euismod, 
-                    maximus lectus sed, elementum mi. Nulla enim tortor, malesuada 
-                    suscipit finibus at, eleifend eget urna. Mauris laoreet metus 
-                    a nisl bibendum, nec maximus urna molestie.</p>
+                <p>    Мы работаем напрямую с дистрибьюторами и производителями одежды и обуви, что позволяет нам предлагать товары по доступным ценам. В нашем онлайн магазине вы всегда найдете новейшие модели недорогой одежды, подберете красивую и удобную обувь, дополните образ стильными аксессуарами и не потратите на покупки лишних денег.
+                    Быстрая доставка по всей Украине
+
+                    Интернет магазин одежды Anastasia Style осуществляет доставку в Харьков, Одессу, Полтаву, Чернигов и другие населенные пункты Украины. Вы можете заказать курьерскую доставку или воспользоваться услугами „НовойПочты“ или „Укрпочты“. Стоимость доставки зависит от стоимости вашего заказа.
+                    
+                </p>
+
+                
             </div>
         </div>
     </div>

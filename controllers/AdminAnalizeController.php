@@ -3,22 +3,31 @@
  * Контроллер AdminAnalizeController
  * Раздел анализа в админпанели
  */
-class AdminCategoryController extends AdminBase
+class AdminAnalizeController extends AdminBase
 {
 
     /**
-     * Action для страницы "Управление категориями"
+     * Action для страницы "Анализ магазина"
      */
     public function actionIndex()
     {
         // Проверка доступа
         self::checkAdmin();
 
-        // Получаем список категорий
-        $categoriesList = Category::getCategoriesListAdmin();
-
         // Подключаем вид
-        require_once(ROOT . '/views/admin_category/index.php');
+        require_once(ROOT . '/views/admin_analize/index.php');
         return true;
     }
+    
+    /**
+     * Action для страницы "Анализ категории"
+     */
+    public function actionCategory()
+    {
+        $categories = Category::getCategoriesList();
+        // Подключаем вид
+        require_once(ROOT . '/views/admin_analize/category.php');
+        return true;
+    }
+    
 }
